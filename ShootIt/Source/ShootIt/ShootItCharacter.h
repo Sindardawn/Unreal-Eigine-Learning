@@ -80,6 +80,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float FHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 IEnergy;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 IScore;
+
 protected:
 	
 	/** Fires a projectile. */

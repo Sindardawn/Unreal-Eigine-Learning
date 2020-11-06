@@ -19,6 +19,10 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 AShootItCharacter::AShootItCharacter()
 {
+	FHealth = 100.0;
+	IEnergy = 100;
+	IScore = 0;
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
@@ -141,6 +145,8 @@ void AShootItCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 void AShootItCharacter::OnFire()
 {
 	// try and fire a projectile
+	IEnergy -= 5;
+	//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Yellow, TEXT("Your Health:") + FString::FromInt(FHealth), true);
 	if (ProjectileClass != NULL)
 	{
 		UWorld* const World = GetWorld();
