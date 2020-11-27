@@ -44,3 +44,16 @@ apk百度云链接：
 
 链接：https://pan.baidu.com/s/1rbh-nYtuwNnP0Fvk_aobKg 
 提取码：t7f9 
+
+#### 第五次作业
+
+Shoot
+
+- 增加了捡枪功能，但还没做扔枪，只能捡一把
+- 给AK47增加了开火和击中木头和铁的音效
+- 增加了榴弹枪，榴弹延迟爆炸，施加冲击波，对木头和铁有不同的音效和阻挡效果，如果命中角色，直接爆炸
+
+apk百度云链接：
+
+链接：https://pan.baidu.com/s/1idvAiBA31NaqBLkrGd9utQ 
+提取码：k1it 
